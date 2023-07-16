@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Oswald:wght@300&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+:root{
+    --font-color: #020406;
+    --background-color:darkgrey;
+    --btn--color:rgb(14, 210, 247);
+}
+.navbar{
+    background:rgba(14, 208, 247, 0.662);
+    z-index: 2;
+}
+.navbar-nav li{
+   margin-right: 40px;
+}
+.navbar-nav li a{
+    font-size: 1.1rem;
+    font-weight: bold;
+ }
+.section-header{
+    height: 100vh;
+}
+.carousel-item{
+    height: 100vh;
+}
+.carousel-item img{
+    height: 100vh;
+}
+.carousel-caption{
+    margin-bottom: 15%;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3));
+}
+.carousel-caption h5{
+    font-size: 3rem;
+    color: var(--btn--color);
+    font-weight: bold;
+}
+.carousel-caption p{
+    font-size: 1.5rem;
+    color:#020406;
+    font-weight: bold;
+}
+
+/* portfolio section */
+.portfolio{
+    background: rgb(223, 220, 220);
+}
+.section-padding{
+    padding: 40px 0;
+}
+.card img{
+    height:400px;
+}
+.card .card-body h5{
+    font-weight: bold;
+    text-align: center;
+}
+.card .card-body p{
+    text-align: justify
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+.aboutus{
+    background: rgb(213, 162, 162);
+}
+
+.contact{
+    background: rgba(20, 112, 165, 0.322);
+}
+.contact .pad{
+    margin: 10px 0;
+}
